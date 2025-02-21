@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with Firebase document snapshots in JavaScript. The `bug.js` file shows the error where we attempt to access data before the promise resolves. The `bugSolution.js` file shows the corrected implementation using `.then()` to ensure that the data is loaded before access.
